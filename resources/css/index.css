@@ -582,7 +582,7 @@ img {
   height: 100%;
   width: 60%;
   background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url('/img/thumb.luke-ellis-craven-400722.jpg ') no-repeat 50% 50% / cover;
+    url('/img/thumb.exhibition-1863344_1920.jpg') no-repeat 50% 50% / cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -685,7 +685,7 @@ img {
   height: 100%;
   width: 60%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/img/thumb.mammoth-1257288_1920.jpg') no-repeat 50% 50% / cover;
+    url('/img/thumb.luke-ellis-craven-400722.jpg') no-repeat 50% 50% / cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
