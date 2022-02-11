@@ -123,7 +123,7 @@ img {
   height: 1.2rem;
   padding: 3rem 1.5rem;
   border-radius: 5px;
-  border-bottom: 1px solid var(--main-BrandColor);
+  border-bottom: 1px solid #fff;
   box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
 }
 
@@ -230,8 +230,7 @@ img {
 }
 
 .first-section {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
 }
 
 .card {
@@ -256,12 +255,19 @@ img {
   font-weight: 100;
 }
 
-.card-first {
-  padding: 1rem;
-}
-
+.card-first,
 .card-second {
+  height: 100%;
+  width: 100%;
   padding: 1rem;
+  border-bottom: 1px solid #d4d4d4;
+}
+.card-third,
+.card-fourth {
+  margin: 1rem;
+  padding: 0 1rem;
+  height: 100%;
+  width: 100%;
 }
 .img {
   width: 100%;
@@ -702,6 +708,47 @@ img {
   border-bottom: 8px solid #af1280;
 }
 
+/* =========================================================================
+================================Covid-19 – important info============================================
+============================================================================ */
+
+.hero-importantinfo-img {
+  height: 100%;
+  width: 60%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('/img/thumb.exhibition-1863344_1920.jpg') no-repeat 50% 50% / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-explore1-container {
+  min-height: 35rem;
+}
+
+/* =============================================================================
+=================================hero-ScienceMuseum page=========================
+================================================================================ */
+.hero-ScienceMuseum-img {
+  height: 100%;
+  width: 60%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('/img/thumb.exhibition-1863344_1920.jpg') no-repeat 50% 50% / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-ScienceMuseum-color {
+  background-color: var(--main-BrandColor);
+}
+.btn-primary-explore-color {
+  background-color: var(--main-BrandColor);
+}
+
+.section-explore1-box2-color {
+  border-bottom: 8px solid var(--main-BrandColor);
+}
 /* -------------------Media queries----------------------------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 900px) {
