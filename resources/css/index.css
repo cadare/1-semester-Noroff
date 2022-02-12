@@ -291,14 +291,14 @@ img {
 }
 
 .img-third {
-  background-image: url('/img/thumb.scientific.jpg');
+  background-image: url('/img/thumb.people-219985_1280.jpg');
   margin-bottom: 2rem;
 
   border-bottom: 6px solid var(--main-BrandColor);
 }
 
 .img-fourth {
-  background-image: url('/img/thumb.people-219985_1280.jpg');
+  background-image: url('/img/thumb.scientific.jpg');
   margin-bottom: 2rem;
 
   border-bottom: 6px solid var(--main-BrandColor);
@@ -520,10 +520,11 @@ img {
   /* text-align: center; */
 }
 
+.contact-link,
 .ruter-planner {
   color: var(--black-color);
-  border-bottom: 3px solid var(--black-color);
-  font-weight: bold;
+  border-bottom: 2px solid var(--black-color);
+  font-weight: 700;
 }
 
 .svg-4,
@@ -628,6 +629,10 @@ img {
   border-bottom: 8px solid #000;
 }
 
+.section-explore1-box1 h1 {
+  margin-bottom: 1rem;
+}
+
 .section-explore1-box2 img {
   flex-shrink: 0;
   min-width: 100%;
@@ -635,7 +640,7 @@ img {
 }
 
 .btn-primary-explore {
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: var(--black-color);
 }
 
