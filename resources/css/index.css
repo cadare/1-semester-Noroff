@@ -83,6 +83,7 @@ img {
   line-height: 1;
   font-weight: 900;
   font-size: 1rem;
+  color: var(--white--color);
 }
 /* span to give title smaller font  */
 .title-logo span {
