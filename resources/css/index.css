@@ -85,9 +85,8 @@ img {
   font-size: 1rem;
   letter-spacing: 0.25em;
   color: var(--white--color);
-  /* border: 2px solid red; */
 }
-/* span to give title smaller font  */
+
 .title-logo span {
   font-weight: 300;
 }
@@ -222,8 +221,6 @@ img {
   color: var(--white--color);
 }
 
-/* section-one */
-
 .section {
   max-width: 75rem;
 
@@ -238,24 +235,15 @@ img {
 }
 
 .card {
-  /* padding: 0.5rem 2rem;
-  margin: 1rem 0.5rem; */
-  /* height: 240px;
-  min-width: 200px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid green; */
   flex-direction: column;
   margin-bottom: 2rem;
   text-align: center;
 }
 
-.card h1 {
-  /* margin-top: 1rem; */
-}
 .card p {
-  /* margin: 1rem 0; */
   font-weight: 100;
 }
 
@@ -352,7 +340,6 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border: 2px solid red; */
   text-align: left;
 }
 
@@ -376,12 +363,6 @@ img {
   max-width: 350px;
   padding: 0 1rem;
 }
-/* .card-fifth,
-.card-sixth,
-.card-seventh {
-  height: 250px;
-  width: 400px;
-} */
 
 .section-info ul li {
   display: inline;
@@ -419,14 +400,6 @@ img {
   bottom: 0;
   width: 90%;
   border-bottom: 1px solid #fff;
-}
-
-.footer-wrapper {
-  /* min-width: 18rem; */
-  /* margin: 0;
-  padding: 0; */
-
-  /* display: flex; */
 }
 
 /* ---------------section footer copyright--------------- */
@@ -506,18 +479,11 @@ img {
 }
 
 .contact-card {
-  /* display: flex;
-  flex-direction: column; */
   padding: 1rem;
   min-height: 25rem;
   width: 50%;
   margin: 1rem;
   line-height: 1.2;
-}
-
-.contact-card li {
-  /* border: 2px solid green; */
-  /* text-align: center; */
 }
 
 .contact-link,
@@ -536,13 +502,10 @@ img {
 
   margin: 0 auto;
 
-  /* border: 2px solid red; */
-
   padding-bottom: 1rem;
 }
 
 .contact-card h3 {
-  /* border: 2px solid #333; */
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -559,7 +522,6 @@ img {
 
 .map-container {
   width: 100%;
-  /* max-height: 35rem; */
 }
 
 .map-container iframe {
@@ -610,11 +572,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* border: 2px solid green; */
   flex-direction: column;
   padding: 0 1rem;
   margin-bottom: 2rem;
-  /* text-align: center; */
 }
 
 .section-explore1-box2 {
@@ -624,7 +584,6 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* border: 2px solid blue; */
   margin-bottom: 2rem;
   border-bottom: 8px solid #000;
 }
@@ -784,7 +743,7 @@ img {
   .section-explore-pages {
     height: 40rem;
   }
-  .info h1 {
+  .info h2 {
     font-size: 4rem;
     font-weight: 300;
   }
