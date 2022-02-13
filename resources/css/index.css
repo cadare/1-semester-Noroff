@@ -942,10 +942,10 @@ img {
   .contact-card {
     min-width: 200px;
   }
-.hero-section{
-  height: 100%;
-}
- 
+  .hero-section {
+    height: 100%;
+  }
+
   .hero-title {
     font-size: 40px;
     bottom: 12%;
@@ -972,8 +972,4 @@ img {
     min-height: 200px;
     min-width: 200px;
   }
-}
-  /* .section-footer {
-    text-align: center;
-  } */
 }
