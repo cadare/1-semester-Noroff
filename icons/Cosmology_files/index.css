@@ -358,6 +358,8 @@ img {
 
 .footer-text-wrapper h3 {
   margin-bottom: 1rem;
+  font-size: 900;
+  /* color: red; */
 }
 
 .footer-text-wrapper li {
@@ -824,11 +826,12 @@ img {
     font-size: 0.75rem;
     font-weight: 300;
     line-height: 1.2;
+    letter-spacing: 0.063;
   }
 
   .title-logo h2 {
     line-height: 1;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     font-size: 0.75rem;
   }
   .logo__img {
@@ -853,6 +856,7 @@ img {
 
   .nav-ul.show {
     display: flex;
+    font-size: 0.625;
   }
 
   .nav-ul.show a {
@@ -942,37 +946,6 @@ img {
   .contact-card {
     min-width: 200px;
   }
-.hero-section{
-  height: 100%;
-}
- 
-  .hero-title {
-    font-size: 40px;
-    bottom: 12%;
-    left: 45%;
-    transform: translate(-50%, -20%);
-  }
-
-  .explore-hero {
-    flex-direction: column-reverse;
-    overflow: hidden;
-  }
-
-  .section-explore1-box1 {
-    min-height: 350px;
-    min-width: 200px;
-  }
-  .section-explore1-box2 {
-    min-height: 250px;
-    min-width: 200px;
-  }
-  .section-explore1:nth-child(2n) {
-    flex-wrap: wrap-reverse;
-
-    min-height: 200px;
-    min-width: 200px;
-  }
-}
   /* .section-footer {
     text-align: center;
   } */
